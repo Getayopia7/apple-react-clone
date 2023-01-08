@@ -1,0 +1,461 @@
+General Styling
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	color: #06c; 
+}
+img {
+	max-width: 100%;
+}
+.white {
+	color: #fff;
+}
+.black {
+	color: #0b0b0c;
+}
+
+.grey {
+	color: #86868b;
+}
+
+.top-50 {
+	margin-top: 50px;
+}
+/* Header Style */
+.nav-wrapper, .fixed-top{
+	backdrop-filter: blur(12px);
+}
+.nav-wrapper {
+  background: rgba(0,0,0,0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+	color: #fff;
+}
+.navbar-toggler {
+	color: #fff;
+}
+.nav-item {
+	text-align: left !important;
+	padding: 4px 0;
+	border-bottom: 1px solid #4b4b4b;
+}
+.searchCartimg{
+	
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: .7em;
+}
+.footer-wrapper ul {
+	list-style: none;
+	padding-bottom: 10px;
+	padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+	color: #515154;
+}
+.my-apple-wrapper {
+	padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+	margin-top: 15px;
+}
+.footer-country {
+	margin-top: 8px;
+}
+.flag-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.footer-country-name{
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer-links-terms ul {
+	display: flex;
+}
+.footer-links-terms ul li {
+	padding: 0 10px;
+	border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+	padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+	border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+	font-size: 12px;
+	font-weight: 600;
+	color: #1d1d1f;
+}
+.footer-wrapper ul li{
+	padding: 4px 0;
+}
+.upper-text-container {
+	border-bottom: 1px solid #d2d2d7;
+	padding: 17px 0 10px;
+	margin-bottom: 20px;
+}
+.upper-text-container a {
+	color: #515154;
+}
+/*Sixth Section*/
+.sixth-heghlight-wrapper .left-side-wrapper .left-side-container{
+	background-image:  url("../img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg"); 
+	background-color: #000;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;		
+}
+.sixth-heghlight-wrapper .right-side-wrapper .right-side-container{
+	background-image:  url("../img/promo_ipadpro__ch217v9v7no2_medium.jpg"); 
+	background-color: #fbfbfd;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;	
+}
+
+.left-side-container {
+	min-height: 515px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+}
+
+.right-side-container {
+	min-height: 515px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;	
+}
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.sixth-heghlight-wrapper .links-wrapper {
+	max-width: 300px;
+	margin: 0 auto;
+}
+.links-wrapper ul {
+	list-style: none;
+}
+.product-title {
+	font-weight: 700;
+	font-size: 56px;
+}
+.brief-description {
+	font-size: 2em;
+}
+.sixth-heghlight-wrapper .description-wraper {
+	max-width: 250px;
+	margin: 7px auto;
+}
+.description-wraper.white{
+	color: white;
+}
+.links-wrapper {
+	padding: 15px 1;
+}
+.links-wrapper ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.links-wrapper ul li a {
+	color: rgb(19, 129, 226);
+	text-decoration: none;
+	font-size: 19px;
+}
+.links-wrapper ul li a:hover {
+	color: rgb(154, 147, 147);
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.title-wraper {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.title-disc-wrapper {
+	color:#000;
+	font-size: x-large;
+}
+.title-wraper.bold {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.right-side-wrapper .title-wraper {
+	max-width: 280px;
+	margin: 0 auto;
+} 
+.description-wrapper {
+	font-size: 26px;
+	padding: 10px 0;
+	
+}
+
+/*Fifth Section*/
+.fifth-heghlight-wrapper .left-side-wrapper .left-side-container{
+	background-image:  url("../img/promo_airpods_holiday__fqg7rt8b4vma_large.jpg"); 
+	background-color: #000;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;		
+}
+.fifth-heghlight-wrapper .right-side-wrapper .right-side-container{
+	background-image:  url("../img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg"); 
+	background-color: #fbfbfd;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;	
+}
+.fifth-heghlight-wrapper .description-wraper {
+	max-width: 450px;
+	margin: 7px auto;
+
+}
+.watch-more-wrapper a {
+	text-decoration: none;
+	font-size: 0.85em;
+	color: #fff;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.tvshow-logo-wraper {
+	padding: 340px 0 0px;
+}
+/* Fourth section */
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container{
+	background-image:  url("../img/promo_iphone14pro__4n4twj56fzmu_large.jpg"); 
+	background-color: #000;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;		
+}
+.description-wraper .pro {
+	color: #d2d2d7 !important
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container{
+	background-image:  url("../img/promo_ipad__fioegapg12qi_large.jpg"); 
+	background-color: #165ca9;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: auto;	
+}
+.links-wrapper.white li a {
+	color: #fff;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .title-wraper {
+    max-width: 380px;
+}
+
+
+
+/*Third section*/
+.third-hightlight-wrapper {
+	background-image: url("../img/hero__dvsxv8smkkgi_medium.jpg");
+	height: 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;
+}
+.Card-img-title{
+	background-image: url("../img/card_logo__b0k9gna8xemu_medium.png");
+	height: 50px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*Second section*/
+.classified-container{
+	text-align: bottom;
+	padding-top: 325px;
+}
+.second-hightlight-wrapper {
+	background-image: url("../img/hero_endframe__8xosbwdvpaqe_medium.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: rgb(239, 233, 233);
+	margin-bottom: 10px;	
+}
+/*First Section*/
+.first-hightlight-wrapper{
+	background-image: url("../img/hero_iphone14__fjmsqstr1ceq_medium.jpg");
+	height: 580px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+	text-align: center;
+	padding: 65px 20px;
+	color: #fff;	
+	margin-bottom: 10px;
+}
+.ipod-caption {
+	color: #86868b;
+	font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;		
+  padding-top: 310px;
+}
+/* Alert section */
+.alert-section {
+	text-align: center;
+	padding: 20px;
+}
+.alert-title {
+	font-weight: 600;
+	color: #1d1d1f;
+	padding: 10px;
+}
+.alert-text {
+	max-width: 90%;
+	margin: 0 auto;
+}
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px){
+	.footer-links-wrapper ul {
+		display: none;
+	}
+	.footer-links-wrapper h3 {
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.footer-links-wrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+	.footer-links-wrapper h3.expanded:after {
+		font-family: "FontAwesome";
+		content: "\0058";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	  }
+}
+@media (min-width: 768px) {
+	/*Nav bar*/
+	.nav-item {
+		text-align: center !important;
+		padding: 0;
+		border-bottom: 0px;
+	}	
+	/*Footer styling*/
+	.my-apple-wrapper {
+		border-bottom: 1px solid #d2d2d7
+	}
+	/*Sixth section*/
+	.sixth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	    margin: 5px 5px 10px 10px;
+	}
+	.sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	    margin: 5px 10px 10px 5px;
+	}	
+	.sixth-heghlight-wrapper .links-wrapper {
+	    max-width: 500px;
+	}	
+	/*Fifth section*/
+	.fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	    margin: 5px 5px 5px 10px;
+	}
+	.fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	    margin: 5px 10px 5px 5px;
+	}
+	/*fourth section*/
+	.fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	    margin: 10px 5px 5px 10px;
+		color: #ccc;
+	}
+	.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	    margin: 10px 10px 5px 5px;
+	}		
+	.title-wraper.bold {
+	  font-size: 76px;
+	}
+	/* third Section */
+	.third-hightlight-wrapper {
+		min-height: 692px;
+		background-image: url("../img/hero__dvsxv8smkkgi_large.jpg");
+	}
+	
+	/* Second section */
+	.second-hightlight-wrapper {
+		min-height: 692px;
+		background-image: url("../img/hero_endframe__8xosbwdvpaqe_large.jpg");
+		color: #d2d2d7
+		;
+	}
+	.new-alert {
+		color: #BF4801;
+		font-size: 18px;
+	}
+	/* First section */
+	.first-hightlight-wrapper {
+		background-image: url("../img/hero_iphone14__fjmsqstr1ceq_large.jpg");
+		min-height: 692px;
+	}	
+	.ipod-caption {
+	  padding-top: 415px;
+	}	
+	/*Alert section*/
+	.alert-text {
+		max-width: 85%;
+		margin: 0 auto;
+	}	
+}
+@media (min-width: 992px) {
+	/*Footer styling*/
+	.copyright {
+		margin-top: 10px;
+	}
+	.footer-country {
+		margin-top: 10px;
+	}
+	.footer-links-terms {
+		margin-top: 10px;
+	}	
+}
